@@ -100,7 +100,7 @@ onMounted(() => {
     <!-- Sidebar -->
     <aside
       :class="[
-        'fixed lg:static inset-y-0 left-0 z-50 w-64 border-r bg-background transform transition-transform duration-200 ease-in-out lg:transform-none',
+        'fixed lg:static bg-white inset-y-0 left-0 z-50 w-64 border-r bg-background transform transition-transform duration-200 ease-in-out lg:transform-none',
         isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
       ]"
     >
